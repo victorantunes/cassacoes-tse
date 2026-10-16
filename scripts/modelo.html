@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eleitos cassados no Brasil por partido e espectro ideológico, 1989–2025</title>
+<meta name="description" content="Quantos políticos eleitos perderam o mandato por cassação ou impeachment desde a redemocratização, por partido e por espectro ideológico (classificação de Bolognesi, Ribeiro e Codato), com dados do TSE normalizados por mandatos eleitos.">
+<meta property="og:title" content="Eleitos cassados no Brasil por partido e espectro ideológico, 1989–2025">
+<meta property="og:description" content="Análise com dados do TSE, classificação ideológica de Bolognesi, Ribeiro e Codato e taxas por mil mandatos eleitos.">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="pt_BR">
+<style>
+:root{--fundo:#fbfaf7;--texto:#1d2330;--suave:#5b6474;--linha:#e2ded4;--painel:#f2efe7;--acento:#1f5f8b;--barra:#3b7fb0;--aviso:#fff5d6;--aviso-borda:#e3c55d}
+@media (prefers-color-scheme:dark){:root{--fundo:#14181f;--texto:#e6e8ec;--suave:#a1a9b8;--linha:#2d3441;--painel:#1c222c;--acento:#7fb8e3;--barra:#5a9fd1;--aviso:#3a3320;--aviso-borda:#8a7326}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--fundo);color:var(--texto);font:17px/1.65 Georgia,"Times New Roman",serif}
+main,header .in,footer .in{max-width:62rem;margin:0 auto;padding:0 1rem}
+header{border-bottom:1px solid var(--linha);padding:2.5rem 0 1.5rem}
+h1{font:700 2rem/1.2 system-ui,-apple-system,"Segoe UI",sans-serif;margin:.2rem 0 .8rem}
+h2{font:700 1.45rem/1.3 system-ui,-apple-system,"Segoe UI",sans-serif;margin:2.6rem 0 .8rem;padding-top:.4rem;border-top:1px solid var(--linha)}
+h3{font:600 1.1rem/1.3 system-ui,sans-serif;margin:1.6rem 0 .5rem}
+p,li{max-width:46rem}
+.sub{color:var(--suave);font-size:1.05rem;max-width:44rem}
+.meta{color:var(--suave);font:.85rem system-ui,sans-serif}
+nav.toc{font:.92rem/1.9 system-ui,sans-serif;background:var(--painel);border:1px solid var(--linha);border-radius:8px;padding:.7rem 1rem;margin:1.2rem 0}
+nav.toc a{margin-right:1rem;white-space:nowrap}
+a{color:var(--acento)}
+.cartoes{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:.8rem;margin:1.2rem 0}
+.cartao{background:var(--painel);border:1px solid var(--linha);border-radius:8px;padding:.9rem 1rem;font-family:system-ui,sans-serif}
+.cartao b{display:block;font-size:1.9rem;line-height:1.1}
+.cartao span{color:var(--suave);font-size:.88rem}
+.aviso{background:var(--aviso);border:1px solid var(--aviso-borda);border-radius:8px;padding:.7rem 1rem;font:.95rem/1.55 system-ui,sans-serif;max-width:46rem}
+.rolagem{overflow-x:auto;margin:1rem 0}
+table{border-collapse:collapse;width:100%;font:.88rem/1.4 system-ui,sans-serif}
+th,td{border-bottom:1px solid var(--linha);padding:.4rem .55rem;text-align:left;vertical-align:top}
+thead th{background:var(--painel);position:sticky;top:0}
+td:nth-child(n+3){font-variant-numeric:tabular-nums}
+tr.raro{color:var(--suave)}
+.ordenavel thead th{cursor:pointer}
+.ordenavel thead th::after{content:" ↕";color:var(--suave);font-size:.75em}
+input[type=search]{width:100%;max-width:26rem;padding:.5rem .7rem;border:1px solid var(--linha);border-radius:6px;background:var(--fundo);color:var(--texto);font:.95rem system-ui,sans-serif}
+ul.barras{list-style:none;padding:0;margin:1rem 0;font:.9rem system-ui,sans-serif;max-width:46rem}
+ul.barras li{display:grid;grid-template-columns:9rem 1fr 8.5rem;gap:.6rem;align-items:center;margin:.3rem 0}
+.trilho{background:var(--painel);height:.85rem;border-radius:3px;overflow:hidden}
+.barra{display:block;height:100%;background:var(--barra)}
+.val small{display:block;color:var(--suave);font-size:.75rem}
+figure{margin:1.2rem 0}
+figcaption{font:.85rem system-ui,sans-serif;color:var(--suave)}
+code{font:.88em ui-monospace,Consolas,monospace;background:var(--painel);padding:.1em .3em;border-radius:3px}
+footer{border-top:1px solid var(--linha);margin-top:3rem;padding:1.5rem 0 3rem;font:.88rem/1.6 system-ui,sans-serif;color:var(--suave)}
+@media (max-width:40rem){body{font-size:16px}h1{font-size:1.6rem}ul.barras li{grid-template-columns:6.5rem 1fr 6.5rem}}
+</style>
+</head>
+<body>
+<header><div class="in">
+<p class="meta">Relatório · atualizado em {{DATA}}</p>
+<h1>Eleitos cassados no Brasil por partido e espectro ideológico, 1989–2025</h1>
+<p class="sub">Quantos e quais políticos eleitos perderam o mandato, em quais partidos, e como isso se distribui entre esquerda e direita segundo a classificação de Bolognesi, Ribeiro e Codato. Os dados vêm do TSE, de listas jornalísticas e de duas edições do survey com cientistas políticos.</p>
+<nav class="toc" aria-label="Seções"><a href="#resumo">Resumo</a><a href="#metodo">Método</a><a href="#classificacao">Classificação</a><a href="#partidos">Por partido</a><a href="#espectro">Por espectro</a><a href="#robustez">Robustez</a><a href="#nomes">Nomes</a><a href="#limites">Limitações</a><a href="#fontes">Fontes</a></nav>
+</div></header>
+<main>
+
+<section id="resumo">
+<h2>Resumo</h2>
+<p><strong>Foram identificados {{N_COMPARTIDO}} eleitos cassados com partido conhecido desde 1989: {{N_PREFEITOS}} prefeitos, {{N_VV}} vice-prefeitos e vereadores, e {{N_ALTOS}} presidentes, governadores, senadores e deputados federais.</strong> Outros {{N_SEMPARTIDO}} prefeitos foram substituídos em eleições suplementares, mas o partido do titular não pôde ser identificado nos arquivos do TSE.</p>
+<div class="cartoes">
+<div class="cartao"><b>{{N_UNIVERSO}}</b><span>casos no cálculo, em {{N_MANDATOS}} mandatos eleitos ({{TAXA_TOTAL}} por mil)</span></div>
+<div class="cartao"><b>{{MDB_N}}</b><span>casos do MDB (PMDB), a maior contagem absoluta</span></div>
+<div class="cartao"><b>{{DIR_T}} × {{ESQ_T}}</b><span>casos por mil mandatos: direita ampla × esquerda ampla</span></div>
+<div class="cartao"><b>{{RR}}</b><span>razão de taxas direita/esquerda (IC 95%: {{IC_A}} a {{IC_B}})</span></div>
+</div>
+<ul>
+<li><strong>Em números absolutos</strong> o MDB lidera, seguido por PSDB ({{PSDB_N}}), Progressistas, DEM, PR e PTB. Isso acompanha o tamanho histórico dos partidos.</li>
+<li><strong>Normalizando por mandatos eleitos</strong>, a direita ampla (centro-direita, direita e extrema-direita) tem {{DIR_T}} casos por mil mandatos, o centro {{CEN_T}} e a esquerda ampla (extrema-esquerda, esquerda e centro-esquerda) {{ESQ_T}}.</li>
+<li><strong>A diferença é pequena e no limite da significância:</strong> teste exato de Fisher p = {{P_FISHER}}; ao controlar pelo cargo (Cochran-Mantel-Haenszel), razão de chances de {{OR_MH}} e p = {{P_CMH}}. Em nenhum cargo isolado a diferença é significativa.</li>
+<li><strong>Entre os partidos com mais de mil mandatos</strong>, a maior taxa é a do {{GRANDE_TOP}} e a menor a do {{GRANDE_BOT}}.</li>
+</ul>
+<p class="aviso">A contagem de prefeitos usa a eleição suplementar como indicador de perda do mandato. Ela captura cassações, mas também indeferimento de registro e outras vacâncias, e deixa de fora casos sem partido identificável. Leia a seção <a href="#limites">Limitações</a> antes de citar os números.</p>
+</section>
+
+<section id="metodo">
+<h2>Método e fontes</h2>
+<p><strong>O TSE não publica uma lista de mandatos perdidos, então combinei três fontes e contei apenas pessoas que foram eleitas.</strong> Candidaturas cassadas de quem não se elegeu ficam de fora.</p>
+<h3>1. Prefeitos (ciclos 2004 a 2024)</h3>
+<p>Nos arquivos de candidatos do <a href="https://dadosabertos.tse.jus.br/">Portal de Dados Abertos do TSE</a> aparecem as eleições suplementares para prefeito. Cada município com suplementar teve o cargo vago; o prefeito afastado é o eleito no ciclo anterior no mesmo município, cujo partido vem do arquivo da eleição ordinária. Foram {{N_SUP}} prefeitos assim identificados, mais {{N_MARC}} com o marcador de cassação do TSE que não tiveram suplementar. Casos por ciclo: 2004, {{C2004}}; 2008, {{C2008}}; 2012, {{C2012}}; 2016, {{C2016}}; 2020, {{C2020}}; 2024, {{C2024}}.</p>
+<p>Para {{N_SEMPARTIDO}} suplementares (2016: {{SEM2016}}; 2020: {{SEM2020}}; 2024: {{SEM2024}}) o arquivo do TSE não registra quem venceu a eleição ordinária, porque o vencedor aparece sem o resultado "eleito". Esses casos não entram nas taxas por partido.</p>
+<h3>2. Vice-prefeitos e vereadores</h3>
+<p>Só o marcador de cassação dos arquivos do TSE (<code>CASSADO</code>, <code>CASSADO COM RECURSO</code>, <code>CASSAÇÃO DO REGISTRO</code>, existente para 1998, 2000, 2004, 2008, 2010, 2012, 2016 e 2024). São {{N_VV}} casos e um piso. Não entram nas taxas.</p>
+<h3>3. Presidentes, governadores, senadores e deputados federais</h3>
+<p>Listas da Wikipédia, CNN Brasil, IstoÉ Dinheiro, Sedep e Congresso em Foco, reunidas em <code>data/altos_cargos_cassados.csv</code> ({{N_ALTOS}} casos). Entram impeachments (Collor, Dilma e Witzel), que não são cassação em sentido estrito, mas são perda de mandato por julgamento político. Para as taxas valem {{N_ALTOS_UNIV}} casos: ficam de fora os 2 presidentes e os 11 deputados eleitos antes de 1994, porque os arquivos do TSE usados começam em 1994.</p>
+<h3>Normalização e testes</h3>
+<p>A taxa é o número de casos dividido pelo número de mandatos eleitos no mesmo universo, por mil. Os mandatos contados vêm do resultado "eleito" nos arquivos do TSE: {{MAND_PREF}} prefeitos (ciclos 2004 a 2024), {{MAND_DEP}} deputados federais, {{MAND_SEN}} senadores e {{MAND_GOV}} governadores (eleições gerais de 1994 a 2022). A comparação entre blocos usa razão de taxas com intervalo de confiança de 95% (aproximação log-normal), teste exato de Fisher e o teste de Cochran-Mantel-Haenszel estratificado por cargo, que evita misturar cargos com taxas muito diferentes.</p>
+<p>O partido é o da época da eleição, agrupado pelo sucessor atual: PMDB e MDB; PFL e DEM; PP, PPB e Progressistas; PL (até 2019) e PR; PT do B e Avante; PTN e Podemos; PSDC e DC; Republicanos e PRB. O PSD anterior a 2010 foi tratado como PTB, para o qual foi incorporado.</p>
+</section>
+
+<section id="classificacao">
+<h2>Classificação ideológica dos partidos</h2>
+<p><strong>Uso a classificação de <a href="https://doi.org/10.1590/dados.2023.66.2.303">Bolognesi, Ribeiro e Codato (2023, <em>Dados</em>, v. 66, n. 2)</a>, que se baseia em um survey com cientistas políticos de 2018, numa escala de 0 (esquerda) a 10 (direita) dividida em sete categorias.</strong></p>
+{{TAB_CLASSIF}}
+<p>*<strong>União Brasil</strong> (fusão de DEM e PSL, 2022) não está no artigo de 2023. A edição seguinte do survey, <a href="https://doi.org/10.1590/1807-0191202531120">Bolognesi, Ribeiro, Codato e Silva (2025, <em>Opinião Pública</em>, v. 31, e31120)</a>, trata a fusão como a média das siglas na rodada anterior (8,34 em 2018, que é a média simples de DEM e PSL) e registra 8,49 em 2022 e 8,75 pela média ponderada, que o artigo usa para a categoria "extrema-direita". Adotei a nota ponderada. Se o União Brasil fosse classificado como "direita" (8,34 ou 8,49), o bloco "direita ampla" ficaria igual e nenhum resultado agregado mudaria.</p>
+<p>Siglas extintas ou renomeadas herdam a nota do partido atual da lista acima. O PRD (fusão de PTB e Patriota, 2023) e partidos extintos sem sucessor ficam sem classificação e não têm casos.</p>
+</section>
+
+<section id="partidos">
+<h2>Resultados por partido</h2>
+<p><strong>O MDB tem {{MDB_N}} casos, o maior número entre os partidos, mas a taxa dele ({{MDB_T}} por mil) fica perto da média ({{TAXA_TOTAL}}); a maior taxa entre os grandes partidos é a do PTB ({{PTB_T}}).</strong> Ordene a tabela clicando nos títulos. Linhas em cinza têm menos de 5 casos, e a taxa delas varia muito com um caso a mais ou a menos.</p>
+<figure><figcaption><strong>Casos absolutos, dez maiores partidos</strong></figcaption>{{GRAF_ABS}}</figure>
+<figure><figcaption><strong>Casos por mil mandatos eleitos, partidos com mais de mil mandatos</strong></figcaption>{{GRAF_PART}}</figure>
+{{TAB_PARTIDOS}}
+<p class="meta">Casos: prefeitos (suplementar ou marcador do TSE), deputados federais, senadores e governadores. Presidentes, vice-prefeitos e vereadores não entram nesta tabela.</p>
+</section>
+
+<section id="espectro">
+<h2>Resultados por espectro ideológico</h2>
+<p><strong>A direita ampla tem {{DIR_N}} casos em {{DIR_D}} mandatos ({{DIR_T}} por mil), contra {{ESQ_N}} em {{ESQ_D}} ({{ESQ_T}} por mil) da esquerda ampla: razão de taxas {{RR}} (IC 95%: {{IC_A}} a {{IC_B}}; Fisher p = {{P_FISHER}}).</strong> O centro tem {{CEN_N}} casos em {{CEN_D}} mandatos ({{CEN_T}} por mil).</p>
+<figure><figcaption><strong>Casos por mil mandatos eleitos, por categoria</strong></figcaption>{{GRAF_CAT}}</figure>
+{{TAB_CATEGORIAS}}
+<h3>Por cargo</h3>
+<p>Prefeitos concentram quase todos os casos e têm taxas de {{PREF_E}} (esquerda ampla) e {{PREF_D}} (direita ampla) por mil, sem diferença significativa (p = {{PREF_P}}). Entre deputados federais a taxa é {{DEP_E}} contra {{DEP_D}} (p = {{DEP_P}}), com apenas 2 casos de esquerda. Entre senadores é {{SEN_E}} contra {{SEN_D}}, e entre governadores {{GOV_E}} contra {{GOV_D}} (p = {{GOV_P}}).</p>
+{{TAB_NIVEIS}}
+<p><strong>Leitura:</strong> há uma tendência de taxa mais alta na direita ampla, mas ela é pequena (cerca de {{PCT_MAIS}} a mais), não se sustenta em nenhum cargo isolado e depende de como se define a perda de mandato de prefeito. Não há base para dizer que um campo é "mais cassado" que o outro.</p>
+</section>
+
+<section id="robustez">
+<h2>Robustez</h2>
+<p><strong>O resultado agregado muda pouco com a classificação alternativa e com o tratamento do União Brasil, mas perde precisão se os prefeitos forem contados só pelo marcador do TSE.</strong> A classificação de 2022 (média ponderada de Bolognesi et al., 2025) elimina o centro, porque nenhum partido fica entre 4,5 e 5,5 nela.</p>
+{{TAB_SENS}}
+<p class="meta">Razão de taxas: direita ampla sobre esquerda ampla. OR MH: razão de chances de Mantel-Haenszel estratificada por cargo; p (CMH): teste de Cochran-Mantel-Haenszel.</p>
+<p>A linha do cenário sem eleições suplementares usa apenas o marcador do TSE para prefeitos e tem muito menos casos, o que alarga o intervalo de confiança.</p>
+</section>
+
+<section id="nomes">
+<h2>Lista nominal: presidentes, governadores, senadores e deputados federais</h2>
+<p><strong>São {{N_ALTOS}} casos, em ordem cronológica.</strong> Plenário e Mesa referem-se à Câmara ou ao Senado. Dados completos em <a href="data/altos_cargos_classificados.csv"><code>data/altos_cargos_classificados.csv</code></a>.</p>
+{{TAB_ALTOS}}
+<h3>Eleitos municipais e prefeitos</h3>
+<p>Os {{N_MUNIC}} eleitos municipais com marcador de cassação do TSE (prefeitos, vice-prefeitos e vereadores) estão em <a href="data/eleitos_municipais_marcador_tse.csv"><code>data/eleitos_municipais_marcador_tse.csv</code></a>, e os prefeitos substituídos por eleição suplementar em <a href="data/prefeitos_eleicao_suplementar.csv"><code>data/prefeitos_eleicao_suplementar.csv</code></a>. Os resultados por partido estão em <a href="data/resultados_por_partido.csv"><code>data/resultados_por_partido.csv</code></a>.</p>
+</section>
+
+<section id="limites">
+<h2>Limitações e ressalvas</h2>
+<ol>
+<li><strong>Cobertura do TSE.</strong> O marcador de cassação existe só em 8 das 16 eleições desde 1994. Para prefeitos, supri a lacuna com as eleições suplementares, que existem para todos os ciclos de 2004 a 2024. Como validação de ordem de grandeza, o <a href="https://www.meionews.com/politica/justica-eleitoral-cassa-96-prefeitos-por-ficha-suja-desde-2020-confira-a-lista-491802">levantamento do O Globo</a>, citado pelo MeioNews, contou ao menos 96 prefeitos eleitos em 2020 que perderam o mandato, e o do <a href="https://blogdobarbosa.jor.br/brasil-tem-1-prefeito-retirado-do-cargo-a-cada-8-dias-pela-justica-eleitoral/">G1</a> (reproduzido por um blog), de fevereiro de 2016, contou 142 prefeitos retirados do cargo desde a eleição de 2012, além de 99 cassados que seguiam no cargo por liminar. O indicador deste relatório dá {{C2012}} casos no ciclo de 2012 e {{C2020}} mais {{SEM2020}} sem partido no de 2020, a mesma ordem de grandeza. Persistem lacunas: o ciclo de 2000 tem só 8 suplementares nos arquivos e ficou de fora, o de 2024 está em curso, e vice-prefeitos e vereadores seguem só com o marcador do TSE.</li>
+<li><strong>Eleição suplementar não é sinônimo de cassação.</strong> Ela também decorre de indeferimento de registro do eleito, morte e renúncia. Por isso o indicador de prefeitos é uma aproximação por cima.</li>
+<li><strong>Partido ausente em parte dos casos.</strong> {{N_SEMPARTIDO}} suplementares não têm o titular localizado; se esses casos se distribuírem de modo diferente entre os campos, as taxas por campo mudam.</li>
+<li><strong>Listas não oficiais.</strong> Os {{N_ALTOS}} casos de alto nível vêm de fontes jornalísticas e colaborativas, que não foram checadas contra as decisões originais. Não confirmei casos como o do senador João Capiberibe (2004). O partido de Flamarion Portela (PT) vem de uma única fonte, e o de Collor (PRN) é de conhecimento geral, sem fonte aberta nesta consulta.</li>
+<li><strong>Classificação e tempo.</strong> A escala de Bolognesi et al. (2023) vem de um survey de 2018 e avalia partidos, não políticos; PSDB, MDB e outros mudaram de posição desde 1989, e políticos trocam de partido. Para testar isso, repeti a análise com a rodada de 2022 de Bolognesi et al. (2025), que dá resultado semelhante (razão de taxas {{RR25}}; Fisher p = {{P25}}; CMH p = {{PCMH25}}). Não há, nesta análise, classificação específica para cada legislatura.</li>
+<li><strong>Conceito misto.</strong> Somam-se cassação pelo TSE e por TRE, decisão de plenário por quebra de decoro, perda declarada pela Mesa (faltas, condenação) e impeachment.</li>
+<li><strong>Estatística.</strong> Os testes tratam cada mandato como independente e não corrigem comparações múltiplas. Taxas de partidos com poucos casos são instáveis.</li>
+</ol>
+</section>
+
+<section id="fontes">
+<h2>Fontes e reprodução</h2>
+<ul>
+<li>TSE, <a href="https://dadosabertos.tse.jus.br/">Portal de Dados Abertos</a>: arquivos <code>consulta_cand_AAAA.zip</code> (1994 a 2024) e <code>motivo_cassacao_2024.zip</code>, licença CC BY.</li>
+<li>Bolognesi, B.; Ribeiro, E.; Codato, A. Uma nova classificação ideológica dos políticos brasileiros. <em>Dados</em>, v. 66, n. 2, 2023. <a href="https://doi.org/10.1590/dados.2023.66.2.303">doi:10.1590/dados.2023.66.2.303</a>.</li>
+<li>Bolognesi, B.; Ribeiro, E.; Codato, A.; Silva, B. F. O desaparecimento do centro ideológico no sistema partidário brasileiro. <em>Opinião Pública</em>, v. 31, e31120, 2025. <a href="https://doi.org/10.1590/1807-0191202531120">doi:10.1590/1807-0191202531120</a>.</li>
+<li><a href="https://pt.wikipedia.org/wiki/Lista_de_parlamentares_federais_cassados_no_Brasil">Wikipédia: Lista de parlamentares federais cassados no Brasil</a>; <a href="https://www.cnnbrasil.com.br/politica/85-governadores-nao-terminaram-o-mandato-desde-a-redemocratizacao/">CNN Brasil</a>; <a href="https://istoedinheiro.com.br/tse-ja-cassou-seis-governadores-por-abuso-de-poder-economico">IstoÉ Dinheiro</a>; <a href="https://www.sedep.com.br/?p=26473">Sedep</a>; <a href="https://www.congressoemfoco.com.br/noticia/60130/por-56-votos-19-senado-cassa-demostenes-torres">Congresso em Foco</a>.</li>
+</ul>
+<p>Para refazer a análise: <code>python scripts/01_baixar_tse.py cache</code>, <code>python scripts/02_analise.py cache</code> e <code>python scripts/03_gerar_site.py</code> (somente biblioteca padrão do Python 3.10 ou superior). O código e a lista de casos estão no repositório; ver o <code>README.md</code>.</p>
+</section>
+</main>
+<footer><div class="in">Relatório gerado em {{DATA}} por scripts do repositório. Análise exploratória, sem revisão por pares; confira as fontes antes de citar.</div></footer>
+<script>
+document.querySelectorAll('table.ordenavel').forEach(function(t){
+  var corpo=t.tBodies[0];
+  t.tHead.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var asc=th.dataset.asc!=='1';
+      t.tHead.querySelectorAll('th').forEach(function(x){delete x.dataset.asc});
+      th.dataset.asc=asc?'1':'0';
+      var linhas=Array.from(corpo.rows);
+      linhas.sort(function(a,b){
+        var ca=a.cells[i],cb=b.cells[i];
+        var va=ca.dataset.v!==undefined?parseFloat(ca.dataset.v):ca.textContent.trim();
+        var vb=cb.dataset.v!==undefined?parseFloat(cb.dataset.v):cb.textContent.trim();
+        var r=(typeof va==='number')?va-vb:String(va).localeCompare(String(vb),'pt-BR');
+        return asc?r:-r;
+      });
+      linhas.forEach(function(l){corpo.appendChild(l)});
+    });
+  });
+});
+var f=document.getElementById('filtro');
+if(f){f.addEventListener('input',function(){
+  var q=f.value.toLowerCase();
+  document.querySelectorAll('#lista-altos tbody tr').forEach(function(l){
+    l.style.display=l.textContent.toLowerCase().indexOf(q)>-1?'':'none';
+  });
+});}
+</script>
+</body>
+</html>

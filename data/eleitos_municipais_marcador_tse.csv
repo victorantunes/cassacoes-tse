@@ -1,0 +1,41 @@
+﻿ano;cargo;uf;municipio;nome;partido_na_eleicao;resultado;marcador
+2000;Vereador;RN;Taipu;Francisco Rodrigues;PPB;ELEITO;DS_SITUACAO_CANDIDATURA=CASSAÇÃO DO REGISTRO
+2000;Prefeito;CE;Senador Pompeu;Manoel Juciano Almeida;PSD;ELEITO;DS_SITUACAO_CANDIDATURA=CASSAÇÃO DO REGISTRO
+2008;Prefeito;SP;Araras;Pedro Eliseu Filho;DEM;ELEITO;DS_DETALHE_SITUACAO_CAND=CASSADO
+2008;Prefeito;RS;Vale Do Sol;Nelson  Michel;PMDB;ELEITO;DS_DETALHE_SITUACAO_CAND=CASSADO
+2008;Vereador;CE;Juazeiro Do Norte;Mirantecia Rodrigues Castelo Branco Sampaio;PP;ELEITO;DS_DETALHE_SITUACAO_CAND=CASSADO
+2008;Prefeito;RS;Sinimbu;Mario Rabuske;PP;ELEITO;DS_DETALHE_SITUACAO_CAND=CASSADO
+2012;Vice-Prefeito;SP;Birigui;Antonio Carlos Vendrame;PDT;ELEITO;DS_DETALHE_SITUACAO_CAND=CASSADO COM RECURSO
+2012;Prefeito;SP;Birigui;Pedro Felício Estrada Bernabé;PDT;ELEITO;DS_DETALHE_SITUACAO_CAND=CASSADO COM RECURSO
+2016;Vereador;RN;João Câmara;Luiz Araujo Da Costa;DEM;ELEITO POR QP;DS_DETALHE_SITUACAO_CAND=CASSADO COM RECURSO
+2016;Vereador;MA;Caxias;Aureamelia Brito Lima Soares;PC do B;ELEITO POR QP;DS_DETALHE_SITUACAO_CAND=CASSADO
+2016;Vereador;SP;Taquarivaí;Rubens Carlos Souto De Barros;PMDB;ELEITO POR QP;DS_DETALHE_SITUACAO_CAND=CASSADO COM RECURSO
+2016;Prefeito;GO;Campinaçu;Milson Alves Magalhaes;PP;ELEITO;DS_DETALHE_SITUACAO_CAND=CASSADO COM RECURSO
+2016;Prefeito;SP;Itapura;Fabio Dourado;PP;ELEITO;DS_DETALHE_SITUACAO_CAND=CASSADO COM RECURSO
+2016;Vice-Prefeito;SP;Nova Odessa;Oscar Berggren Neto;PPS;ELEITO;DS_DETALHE_SITUACAO_CAND=CASSADO COM RECURSO
+2016;Prefeito;GO;Davinópolis;Robson Luiz Da Silva Gomes;PR;ELEITO;DS_DETALHE_SITUACAO_CAND=CASSADO
+2016;Vice-Prefeito;SP;Itapura;Rodrigo De Oliveira Prado;PRB;ELEITO;DS_DETALHE_SITUACAO_CAND=CASSADO COM RECURSO
+2016;Vereador;GO;Luziânia;Valdirene Tavares Dos Santos;PRB;ELEITO POR QP;DS_DETALHE_SITUACAO_CAND=CASSADO COM RECURSO
+2016;Vereador;SP;Cajamar;Marcelo Da Rocha Santiago;PSB;ELEITO POR QP;DS_DETALHE_SITUACAO_CAND=CASSADO COM RECURSO
+2016;Vice-Prefeito;RO;Pimenta Bueno;Luiz Henrique Sanches Lima;PSB;ELEITO;DS_DETALHE_SITUACAO_CAND=CASSADO
+2016;Prefeito;RO;Pimenta Bueno;Juliana Araujo Vicente Roque;PSB;ELEITO;DS_DETALHE_SITUACAO_CAND=CASSADO
+2016;Vice-Prefeito;GO;Davinópolis;Rony Felix Rodovalho;PSDB;ELEITO;DS_DETALHE_SITUACAO_CAND=CASSADO
+2016;Prefeito;SP;Nova Odessa;Benjamim Bill Vieira De Souza;PSDB;ELEITO;DS_DETALHE_SITUACAO_CAND=CASSADO COM RECURSO
+2016;Vereador;GO;Davinópolis;Luiz Ferreira Gomes;PSDB;ELEITO POR QP;DS_DETALHE_SITUACAO_CAND=CASSADO
+2016;Prefeito;SP;Ibaté;Jose Luiz Parella;PSDB;ELEITO;DS_DETALHE_SITUACAO_CAND=CASSADO COM RECURSO
+2016;Vereador;SP;Jeriquara;Jose Arquias Ferreira Alves;PT;ELEITO POR QP;DS_DETALHE_SITUACAO_CAND=CASSADO COM RECURSO
+2016;Vereador;SP;Junqueirópolis;Miguel Claudio Batista;PT;ELEITO POR QP;DS_DETALHE_SITUACAO_CAND=CASSADO COM RECURSO
+2024;Prefeito;PA;Peixe-Boi;Joao Pereira Da Silva Neto;MDB;ELEITO;motivo_cassacao_2024: fundamento de cassação
+2024;Prefeito;AL;Senador Rui Palmeira;João Carlos Rodrigues;MDB;ELEITO;motivo_cassacao_2024: fundamento de cassação
+2024;Prefeito;PA;Cametá;Victor Correa Cassiano;MDB;ELEITO;motivo_cassacao_2024: fundamento de cassação
+2024;Prefeito;RS;Rio Pardo;Rogerio Luiz Monteiro;MDB;ELEITO;motivo_cassacao_2024: fundamento de cassação
+2024;Vice-Prefeito;PA;Peixe-Boi;Antonio Mozart Cavalcante Filho;MDB;ELEITO;motivo_cassacao_2024: fundamento de cassação
+2024;Vereador;RS;Panambi;Sergio Ribeiro Rodrigues;PDT;ELEITO POR MÉDIA;motivo_cassacao_2024: fundamento de cassação
+2024;Vereador;SC;Tijucas;José Vicente De Souza E Silva;PL;ELEITO POR QP;motivo_cassacao_2024: fundamento de cassação
+2024;Vereador;SP;Descalvado;Diego Rodrigues Da Silva;PL;ELEITO POR MÉDIA;motivo_cassacao_2024: fundamento de cassação
+2024;Vice-Prefeito;ES;Iconha;Fernando Caprini Volponi;PSB;ELEITO;motivo_cassacao_2024: fundamento de cassação
+2024;Vice-Prefeito;RS;Rio Pardo;Alceu Luiz Seehaber;PSDB;ELEITO;motivo_cassacao_2024: fundamento de cassação
+2024;Vereador;PE;Serrita;Cledson Da Silva Souza;PT;ELEITO POR QP;motivo_cassacao_2024: fundamento de cassação
+2024;Prefeito;SP;Campinas;Dário Jorge Giolo Saadi;REPUBLICANOS;ELEITO;motivo_cassacao_2024: fundamento de cassação
+2024;Prefeito;ES;Iconha;Gedson Brandao Paulino;REPUBLICANOS;ELEITO;motivo_cassacao_2024: fundamento de cassação
+2024;Vice-Prefeito;PA;Cametá;Enio De Carvalho;UNIÃO;ELEITO;motivo_cassacao_2024: fundamento de cassação

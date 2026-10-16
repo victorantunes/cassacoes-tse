@@ -1,0 +1,50 @@
+ano;nome;cargo;uf;partido_na_eleicao;tipo_de_perda;motivo;fonte
+1989;Felipe Cheidde;Deputado federal;SP;PMDB;Mesa da Câmara;Excesso de faltas;wikipedia
+1989;Mário Bouchardet;Deputado federal;MG;PMDB;Mesa da Câmara;Excesso de faltas;wikipedia
+1991;Jabes Rabelo;Deputado federal;RO;PTB;Plenário da Câmara;Endosso a documento falsificado;wikipedia
+1992;Fernando Collor;Presidente;BR;PRN;Impeachment;Crime de responsabilidade (renunciou antes do julgamento; inabilitado por 8 anos);preparaenem/congressoemfoco
+1993;Itsuo Takayama;Deputado federal;MT;PFL;Plenário da Câmara;Compra de filiação partidária;wikipedia
+1993;Nobel Moura;Deputado federal;RO;PTB;Plenário da Câmara;Compra de filiação partidária;wikipedia
+1993;Onaireves Moura;Deputado federal;PR;PTB;Plenário da Câmara;Compra de filiação partidária;wikipedia
+1994;Feres Nader;Deputado federal;RJ;PTB;Plenário da Câmara;CPI do Orçamento;wikipedia
+1994;Carlos Benevides;Deputado federal;CE;PMDB;Plenário da Câmara;CPI do Orçamento;wikipedia
+1994;Fábio Raunheitti;Deputado federal;RJ;PTB;Plenário da Câmara;CPI do Orçamento;wikipedia
+1994;Raquel Cândido;Deputado federal;RO;PTB;Plenário da Câmara;CPI do Orçamento;wikipedia
+1994;Ibsen Pinheiro;Deputado federal;RS;PMDB;Plenário da Câmara;CPI do Orçamento;wikipedia
+1998;Sérgio Naya;Deputado federal;MG;PMDB;Plenário da Câmara;Tragédia do Palace II;wikipedia
+1999;Talvane Albuquerque;Deputado federal;AL;PFL;Plenário da Câmara;Quebra de decoro (morte de Ceci Cunha);wikipedia
+1999;Hildebrando Pascoal;Deputado federal;AC;PFL;Plenário da Câmara;Suspeita de envolvimento com o crime organizado;wikipedia
+2000;Luiz Estevão;Senador;DF;PMDB;Plenário do Senado;Desvio de verba do Fórum Trabalhista de São Paulo;wikipedia/congressoemfoco
+2001;Mão Santa;Governador;PI;PMDB;TSE;Abuso de poder;cnn/istoedinheiro
+2004;Flamarion Portela;Governador;RR;PT;TSE;Abuso de poder político e econômico;cnn
+2004;Rogério Silva;Deputado federal;MT;PMDB;Plenário da Câmara;Compra de votos (condenação da Justiça Eleitoral);wikipedia
+2005;André Luís;Deputado federal;RJ;PMDB;Plenário da Câmara;Extorsão contra Carlinhos Cachoeira;wikipedia
+2005;Paulo Marinho;Deputado federal;MA;PFL;Plenário da Câmara;Venda irregular de ações da Companhia Energética do Maranhão;wikipedia
+2005;Roberto Jefferson;Deputado federal;RJ;PTB;Plenário da Câmara;Mensalão;wikipedia
+2005;José Dirceu;Deputado federal;SP;PT;Plenário da Câmara;Mensalão;wikipedia
+2005;Ronivon Santiago;Deputado federal;AC;PPB;Mesa da Câmara;Crime eleitoral;wikipedia
+2006;Pedro Corrêa;Deputado federal;PE;PPB;Plenário da Câmara;Mensalão;wikipedia
+2009;Cássio Cunha Lima;Governador;PB;PSDB;TSE;Abuso de poder;cnn/istoedinheiro
+2009;Jackson Lago;Governador;MA;PDT;TSE;Abuso de poder político e econômico;sedep
+2009;Marcelo Miranda;Governador;TO;PMDB;TSE;Abuso de poder político;cnn
+2010;José Roberto Arruda;Governador;DF;DEM;TRE-DF;Desfiliação partidária;cnn
+2012;Demóstenes Torres;Senador;GO;DEM;Plenário do Senado;Quebra de decoro (56 a 19);congressoemfoco
+2014;Natan Donadon;Deputado federal;RO;PMDB;Plenário da Câmara;Quebra de decoro;wikipedia
+2014;André Vargas;Deputado federal;PR;PT;Plenário da Câmara;Quebra de decoro;wikipedia
+2016;Delcídio do Amaral;Senador;MS;PT;Plenário do Senado;Obstrução de justiça (74 a 0);wikipedia/congressoemfoco
+2016;Eduardo Cunha;Deputado federal;RJ;PMDB;Plenário da Câmara;Quebra de decoro;wikipedia
+2016;Dilma Rousseff;Presidente;BR;PT;Impeachment;Crime de responsabilidade (sem inabilitação);congressoemfoco/cnn
+2017;José Melo;Governador;AM;PROS;TSE;Abuso de poder econômico e compra de votos;istoedinheiro/cnn
+2018;Marcelo Miranda;Governador;TO;MDB;TSE;Abuso de poder político (segunda cassação);cnn
+2019;Selma Arruda;Senador;MT;PSL;TSE;Abuso de poder econômico (perda declarada em 2020);wikipedia
+2020;Manuel Marcos;Deputado federal;AC;REPUBLICANOS;TSE;Abuso de poder econômico e desvio do fundo eleitoral;wikipedia
+2021;Flordelis;Deputado federal;RJ;PSD;Plenário da Câmara;Quebra de decoro;wikipedia
+2021;Boca Aberta;Deputado federal;PR;PROS;TSE;Cassação pelo plenário do TSE;wikipedia
+2021;Wilson Witzel;Governador;RJ;PSC;Impeachment;Crime de responsabilidade;cnn
+2022;Valdevan Noventa;Deputado federal;SE;PL;TSE;Doações ilícitas na eleição de 2018;wikipedia
+2023;Deltan Dallagnol;Deputado federal;PR;PODE;TSE;Registro indeferido (Ficha Limpa), perda declarada pela Mesa;wikipedia
+2023;Marcelo Lima;Deputado federal;SP;SOLIDARIEDADE;TSE;Infidelidade partidária;wikipedia
+2025;Chiquinho Brazão;Deputado federal;RJ;UNIÃO;Mesa da Câmara;Excesso de faltas;wikipedia
+2025;Carla Zambelli;Deputado federal;SP;PL;STF;Condenação do STF;wikipedia
+2025;Eduardo Bolsonaro;Deputado federal;SP;PL;Mesa da Câmara;Excesso de faltas;wikipedia
+2025;Alexandre Ramagem;Deputado federal;RJ;PL;STF;Condenação do STF (tentativa de golpe de Estado);wikipedia

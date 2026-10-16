@@ -1,0 +1,50 @@
+﻿ano;nome;cargo;uf;partido_na_eleicao;partido_canonico;categoria_2023;tipo_de_perda;motivo;fonte;no_universo_normalizado
+1989;Felipe Cheidde;Deputado federal;SP;PMDB;MDB;Direita;Mesa da Câmara;Excesso de faltas;wikipedia;não
+1989;Mário Bouchardet;Deputado federal;MG;PMDB;MDB;Direita;Mesa da Câmara;Excesso de faltas;wikipedia;não
+1991;Jabes Rabelo;Deputado federal;RO;PTB;PTB;Centro-direita;Plenário da Câmara;Endosso a documento falsificado;wikipedia;não
+1992;Fernando Collor;Presidente;BR;PRN;PTC;Direita;Impeachment;Crime de responsabilidade (renunciou antes do julgamento; inabilitado por 8 anos);não
+1993;Itsuo Takayama;Deputado federal;MT;PFL;DEM;Extrema-direita;Plenário da Câmara;Compra de filiação partidária;wikipedia;não
+1993;Nobel Moura;Deputado federal;RO;PTB;PTB;Centro-direita;Plenário da Câmara;Compra de filiação partidária;wikipedia;não
+1993;Onaireves Moura;Deputado federal;PR;PTB;PTB;Centro-direita;Plenário da Câmara;Compra de filiação partidária;wikipedia;não
+1994;Feres Nader;Deputado federal;RJ;PTB;PTB;Centro-direita;Plenário da Câmara;CPI do Orçamento;wikipedia;não
+1994;Carlos Benevides;Deputado federal;CE;PMDB;MDB;Direita;Plenário da Câmara;CPI do Orçamento;wikipedia;não
+1994;Fábio Raunheitti;Deputado federal;RJ;PTB;PTB;Centro-direita;Plenário da Câmara;CPI do Orçamento;wikipedia;não
+1994;Raquel Cândido;Deputado federal;RO;PTB;PTB;Centro-direita;Plenário da Câmara;CPI do Orçamento;wikipedia;não
+1994;Ibsen Pinheiro;Deputado federal;RS;PMDB;MDB;Direita;Plenário da Câmara;CPI do Orçamento;wikipedia;não
+1998;Sérgio Naya;Deputado federal;MG;PMDB;MDB;Direita;Plenário da Câmara;Tragédia do Palace II;wikipedia;sim
+1999;Talvane Albuquerque;Deputado federal;AL;PFL;DEM;Extrema-direita;Plenário da Câmara;Quebra de decoro (morte de Ceci Cunha);wikipedia;sim
+1999;Hildebrando Pascoal;Deputado federal;AC;PFL;DEM;Extrema-direita;Plenário da Câmara;Suspeita de envolvimento com o crime organizado;wikipedia;sim
+2000;Luiz Estevão;Senador;DF;PMDB;MDB;Direita;Plenário do Senado;Desvio de verba do Fórum Trabalhista de São Paulo;wikipedia/congressoemfoco;sim
+2001;Mão Santa;Governador;PI;PMDB;MDB;Direita;TSE;Abuso de poder;cnn/istoedinheiro;sim
+2004;Flamarion Portela;Governador;RR;PT;PT;Esquerda;TSE;Abuso de poder político e econômico;cnn;sim
+2004;Rogério Silva;Deputado federal;MT;PMDB;MDB;Direita;Plenário da Câmara;Compra de votos (condenação da Justiça Eleitoral);wikipedia;sim
+2005;André Luís;Deputado federal;RJ;PMDB;MDB;Direita;Plenário da Câmara;Extorsão contra Carlinhos Cachoeira;wikipedia;sim
+2005;Paulo Marinho;Deputado federal;MA;PFL;DEM;Extrema-direita;Plenário da Câmara;Venda irregular de ações da Companhia Energética do Maranhão;wikipedia;sim
+2005;Roberto Jefferson;Deputado federal;RJ;PTB;PTB;Centro-direita;Plenário da Câmara;Mensalão;wikipedia;sim
+2005;José Dirceu;Deputado federal;SP;PT;PT;Esquerda;Plenário da Câmara;Mensalão;wikipedia;sim
+2005;Ronivon Santiago;Deputado federal;AC;PPB;Progressistas;Direita;Mesa da Câmara;Crime eleitoral;wikipedia;sim
+2006;Pedro Corrêa;Deputado federal;PE;PPB;Progressistas;Direita;Plenário da Câmara;Mensalão;wikipedia;sim
+2009;Cássio Cunha Lima;Governador;PB;PSDB;PSDB;Direita;TSE;Abuso de poder;cnn/istoedinheiro;sim
+2009;Jackson Lago;Governador;MA;PDT;PDT;Centro-esquerda;TSE;Abuso de poder político e econômico;sedep;sim
+2009;Marcelo Miranda;Governador;TO;PMDB;MDB;Direita;TSE;Abuso de poder político;cnn;sim
+2010;José Roberto Arruda;Governador;DF;DEM;DEM;Extrema-direita;TRE-DF;Desfiliação partidária;cnn;sim
+2012;Demóstenes Torres;Senador;GO;DEM;DEM;Extrema-direita;Plenário do Senado;Quebra de decoro (56 a 19);congressoemfoco;sim
+2014;Natan Donadon;Deputado federal;RO;PMDB;MDB;Direita;Plenário da Câmara;Quebra de decoro;wikipedia;sim
+2014;André Vargas;Deputado federal;PR;PT;PT;Esquerda;Plenário da Câmara;Quebra de decoro;wikipedia;sim
+2016;Delcídio do Amaral;Senador;MS;PT;PT;Esquerda;Plenário do Senado;Obstrução de justiça (74 a 0);wikipedia/congressoemfoco;sim
+2016;Eduardo Cunha;Deputado federal;RJ;PMDB;MDB;Direita;Plenário da Câmara;Quebra de decoro;wikipedia;sim
+2016;Dilma Rousseff;Presidente;BR;PT;PT;Esquerda;Impeachment;Crime de responsabilidade (sem inabilitação);congressoemfoco/cnn;não
+2017;José Melo;Governador;AM;PROS;Pros;Direita;TSE;Abuso de poder econômico e compra de votos;istoedinheiro/cnn;sim
+2018;Marcelo Miranda;Governador;TO;MDB;MDB;Direita;TSE;Abuso de poder político (segunda cassação);cnn;sim
+2019;Selma Arruda;Senador;MT;PSL;PSL;Direita;TSE;Abuso de poder econômico (perda declarada em 2020);wikipedia;sim
+2020;Manuel Marcos;Deputado federal;AC;REPUBLICANOS;PRB;Direita;TSE;Abuso de poder econômico e desvio do fundo eleitoral;wikipedia;sim
+2021;Flordelis;Deputado federal;RJ;PSD;PSD;Direita;Plenário da Câmara;Quebra de decoro;wikipedia;sim
+2021;Boca Aberta;Deputado federal;PR;PROS;Pros;Direita;TSE;Cassação pelo plenário do TSE;wikipedia;sim
+2021;Wilson Witzel;Governador;RJ;PSC;PSC;Direita;Impeachment;Crime de responsabilidade;cnn;sim
+2022;Valdevan Noventa;Deputado federal;SE;PL;PR;Direita;TSE;Doações ilícitas na eleição de 2018;wikipedia;sim
+2023;Deltan Dallagnol;Deputado federal;PR;PODE;Podemos;Direita;TSE;Registro indeferido (Ficha Limpa), perda declarada pela Mesa;wikipedia;sim
+2023;Marcelo Lima;Deputado federal;SP;SOLIDARIEDADE;SDD;Centro-direita;TSE;Infidelidade partidária;wikipedia;sim
+2025;Chiquinho Brazão;Deputado federal;RJ;UNIÃO;UNIÃO;Extrema-direita;Mesa da Câmara;Excesso de faltas;wikipedia;sim
+2025;Carla Zambelli;Deputado federal;SP;PL;PR;Direita;STF;Condenação do STF;wikipedia;sim
+2025;Eduardo Bolsonaro;Deputado federal;SP;PL;PR;Direita;Mesa da Câmara;Excesso de faltas;wikipedia;sim
+2025;Alexandre Ramagem;Deputado federal;RJ;PL;PR;Direita;STF;Condenação do STF (tentativa de golpe de Estado);wikipedia;sim
