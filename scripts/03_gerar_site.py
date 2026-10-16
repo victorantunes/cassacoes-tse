@@ -10,7 +10,7 @@ import sys
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
-from partidos import BOLOGNESI_2023, BOLOGNESI_2025, UNIAO_2025, categoria  # noqa: E402
+from partidos import BOLOGNESI_2023, BOLOGNESI_2025, PRD_2023, PRD_2025, UNIAO_2025, categoria  # noqa: E402
 
 R = json.loads((RAIZ / "data" / "resultados.json").read_text(encoding="utf-8"))
 P, S25, SUN, STSE, T = R["principal"], R["sens_2025"], R["sens_uniao"], R["sens_tse"], R["totais"]
@@ -54,6 +54,7 @@ def tabela_classificacao():
     for p, nota in BOLOGNESI_2023.items():
         cats.setdefault(categoria(nota), []).append((p, nota))
     cats.setdefault(categoria(UNIAO_2025), []).append(("União Brasil*", UNIAO_2025))
+    cats.setdefault(categoria(PRD_2023), []).append(("PRD†", PRD_2023))
     faixas = {"Extrema-esquerda": "0 a 1,50", "Esquerda": "1,51 a 3,00", "Centro-esquerda": "3,01 a 4,49", "Centro": "4,50 a 5,50",
               "Centro-direita": "5,51 a 7,00", "Direita": "7,01 a 8,50", "Extrema-direita": "8,51 a 10"}
     for c in faixas:
@@ -183,6 +184,7 @@ TEXTO = {
     "PCT_MAIS": pct(AG["razao_taxas"] - 1),
     "GRANDE_TOP": f"{nome(grandes[0]['partido'])} ({n(grandes[0]['por_mil'], 1)} por mil)",
     "GRANDE_BOT": f"{nome(grandes[-1]['partido'])} ({n(grandes[-1]['por_mil'], 1)} por mil)",
+    "PRD23": n(PRD_2023, 2), "PRD25": n(PRD_2025, 2), "CAT_PRD23": categoria(PRD_2023).lower(), "CAT_PRD25": categoria(PRD_2025).lower(),
     "DATA": R["gerado_em"],
     "TAB_CLASSIF": tabela_classificacao(), "TAB_PARTIDOS": tabela_partidos(), "TAB_CATEGORIAS": tabela_categorias(P),
     "TAB_NIVEIS": tabela_niveis(), "TAB_SENS": tabela_sensibilidade(), "TAB_ALTOS": tabela_altos(),

@@ -176,7 +176,8 @@ def analisa(escala, rotulo, casos_):
     cats = []
     for cat in CATEGORIAS + ["Sem classificação"]:
         n, d = soma(lambda t: t["categoria"] == cat)
-        cats.append(dict(categoria=cat, casos=n, mandatos=d, por_mil=(1000 * n / d if d else None)))
+        if cat != "Sem classificação" or d:
+            cats.append(dict(categoria=cat, casos=n, mandatos=d, por_mil=(1000 * n / d if d else None)))
     blocos = {}
     for b in ("Esquerda ampla", "Centro", "Direita ampla"):
         n, d = soma(lambda t: BLOCO[t["categoria"]] == b)

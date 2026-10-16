@@ -4,12 +4,12 @@ Quantos e quais políticos eleitos perderam o mandato por cassação ou impeachm
 
 ## Resultado em uma linha
 
-Com taxas por mil mandatos eleitos, a direita ampla tem 14,4 casos e a esquerda ampla 11,2 (razão de taxas 1,28; IC 95%: 1,01 a 1,62; Fisher p = 0,038; Cochran-Mantel-Haenszel por cargo p = 0,06). A diferença é pequena e não se sustenta em nenhum cargo isolado. Em números absolutos o MDB (PMDB) lidera, com 111 casos. Leia a seção de limitações antes de citar.
+Com taxas por mil mandatos eleitos, a direita ampla tem 14,3 casos e a esquerda ampla 11,2 (razão de taxas 1,28; IC 95%: 1,01 a 1,62; Fisher p = 0,038; Cochran-Mantel-Haenszel por cargo p = 0,06). A diferença é pequena e não se sustenta em nenhum cargo isolado. Em números absolutos o MDB (PMDB) lidera, com 111 casos. Leia a seção de limitações antes de citar.
 
 ## Fontes
 
 - **TSE**, [Portal de Dados Abertos](https://dadosabertos.tse.jus.br/): arquivos `consulta_cand` (1994 a 2024) e `motivo_cassacao_2024` (licença CC BY).
-- **Classificação ideológica:** Bolognesi, Ribeiro e Codato (2023), *Dados* 66(2), [doi:10.1590/dados.2023.66.2.303](https://doi.org/10.1590/dados.2023.66.2.303). O União Brasil, que não está nesse artigo, vem de Bolognesi, Ribeiro, Codato e Silva (2025), *Opinião Pública* 31, [doi:10.1590/1807-0191202531120](https://doi.org/10.1590/1807-0191202531120). Esse artigo também fornece a classificação alternativa (rodada de 2022) usada na análise de robustez.
+- **Classificação ideológica:** Bolognesi, Ribeiro e Codato (2023), *Dados* 66(2), [doi:10.1590/dados.2023.66.2.303](https://doi.org/10.1590/dados.2023.66.2.303). O União Brasil, que não está nesse artigo, vem de Bolognesi, Ribeiro, Codato e Silva (2025), *Opinião Pública* 31, [doi:10.1590/1807-0191202531120](https://doi.org/10.1590/1807-0191202531120). Esse artigo também fornece a classificação alternativa (rodada de 2022) usada na análise de robustez. O PRD (fusão de PTB e Patriota, 2023), ausente nos dois artigos, recebe a média simples das notas de PTB e Patriota.
 - **Presidentes, governadores, senadores e deputados federais:** listas da Wikipédia, CNN Brasil, IstoÉ Dinheiro, Sedep e Congresso em Foco (ver `data/altos_cargos_cassados.csv`, coluna `fonte`). Não foram conferidas contra as decisões originais.
 
 ## Como a contagem é feita

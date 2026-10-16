@@ -403,8 +403,8 @@
    },
    {
     "partido": "PRD",
-    "categoria": "Sem classificação",
-    "nota": null,
+    "categoria": "Direita",
+    "nota": 7.325,
     "casos": 0,
     "mandatos": 77,
     "por_mil": 0.0,
@@ -484,20 +484,14 @@
    {
     "categoria": "Direita",
     "casos": 328,
-    "mandatos": 22720,
-    "por_mil": 14.43661971830986
+    "mandatos": 22797,
+    "por_mil": 14.387858051498004
    },
    {
     "categoria": "Extrema-direita",
     "casos": 44,
     "mandatos": 3519,
     "por_mil": 12.50355214549588
-   },
-   {
-    "categoria": "Sem classificação",
-    "casos": 0,
-    "mandatos": 77,
-    "por_mil": 0.0
    }
   ],
   "blocos": {
@@ -513,8 +507,8 @@
    },
    "Direita ampla": {
     "casos": 415,
-    "mandatos": 28905,
-    "por_mil": 14.357377616329355
+    "mandatos": 28982,
+    "por_mil": 14.319232627147885
    }
   },
   "niveis": [
@@ -524,9 +518,9 @@
     "esq_mandatos": 6200,
     "esq_por_mil": 12.580645161290322,
     "dir_casos": 384,
-    "dir_mandatos": 25621,
-    "dir_por_mil": 14.987705397915771,
-    "p_fisher": 0.1733294377096517
+    "dir_mandatos": 25698,
+    "dir_por_mil": 14.94279710483306,
+    "p_fisher": 0.17321249538194874
    },
    {
     "nivel": "deputado",
@@ -560,14 +554,14 @@
    }
   ],
   "agregado": {
-   "razao_taxas": 1.2829960214495761,
+   "razao_taxas": 1.279587330066938,
    "ic95": [
-    1.0136180612041186,
-    1.6239635559571584
+    1.0109250589712597,
+    1.6196489747064269
    ],
-   "p_fisher": 0.03820228721911271,
-   "or_mantel_haenszel": 1.2612043693658634,
-   "p_cmh": 0.061522946438999276
+   "p_fisher": 0.038204291241826824,
+   "or_mantel_haenszel": 1.2577258375327511,
+   "p_cmh": 0.0647893547334707
   }
  },
  "sens_2025": {
@@ -935,8 +929,8 @@
    },
    {
     "partido": "PRD",
-    "categoria": "Sem classificação",
-    "nota": null,
+    "categoria": "Direita",
+    "nota": 8.4085,
     "casos": 0,
     "mandatos": 77,
     "por_mil": 0.0,
@@ -1016,20 +1010,14 @@
    {
     "categoria": "Direita",
     "casos": 126,
-    "mandatos": 9181,
-    "por_mil": 13.723995207493736
+    "mandatos": 9258,
+    "por_mil": 13.609850939727803
    },
    {
     "categoria": "Extrema-direita",
     "casos": 103,
     "mandatos": 7831,
     "por_mil": 13.152854041629421
-   },
-   {
-    "categoria": "Sem classificação",
-    "casos": 0,
-    "mandatos": 77,
-    "por_mil": 0.0
    }
   ],
   "blocos": {
@@ -1045,8 +1033,8 @@
    },
    "Direita ampla": {
     "casos": 427,
-    "mandatos": 29828,
-    "por_mil": 14.31540834115596
+    "mandatos": 29905,
+    "por_mil": 14.278548737669286
    }
   },
   "niveis": [
@@ -1056,9 +1044,9 @@
     "esq_mandatos": 6623,
     "esq_por_mil": 12.532085157783483,
     "dir_casos": 396,
-    "dir_mandatos": 26458,
-    "dir_por_mil": 14.967117695970973,
-    "p_fisher": 0.1503244100124174
+    "dir_mandatos": 26535,
+    "dir_por_mil": 14.92368569813454,
+    "p_fisher": 0.15034059283571738
    },
    {
     "nivel": "deputado",
@@ -1092,14 +1080,14 @@
    }
   ],
   "agregado": {
-   "razao_taxas": 1.2851332488083191,
+   "razao_taxas": 1.281824261677129,
    "ic95": [
-    1.0216344738004801,
-    1.616593321336147
+    1.0190039486547642,
+    1.612430884093449
    ],
-   "p_fisher": 0.02923245462752474,
-   "or_mantel_haenszel": 1.2618936729736083,
-   "p_cmh": 0.053860484628403676
+   "p_fisher": 0.03319546244512346,
+   "or_mantel_haenszel": 1.258507006437561,
+   "p_cmh": 0.05678478112995384
   }
  },
  "sens_uniao": {
@@ -1467,8 +1455,8 @@
    },
    {
     "partido": "PRD",
-    "categoria": "Sem classificação",
-    "nota": null,
+    "categoria": "Direita",
+    "nota": 7.325,
     "casos": 0,
     "mandatos": 77,
     "por_mil": 0.0,
@@ -1548,20 +1536,14 @@
    {
     "categoria": "Direita",
     "casos": 329,
-    "mandatos": 23374,
-    "por_mil": 14.075468469239325
+    "mandatos": 23451,
+    "por_mil": 14.029252483902605
    },
    {
     "categoria": "Extrema-direita",
     "casos": 43,
     "mandatos": 2865,
     "por_mil": 15.008726003490402
-   },
-   {
-    "categoria": "Sem classificação",
-    "casos": 0,
-    "mandatos": 77,
-    "por_mil": 0.0
    }
   ],
   "blocos": {
@@ -1577,8 +1559,8 @@
    },
    "Direita ampla": {
     "casos": 415,
-    "mandatos": 28905,
-    "por_mil": 14.357377616329355
+    "mandatos": 28982,
+    "por_mil": 14.319232627147885
    }
   },
   "niveis": [
@@ -1588,9 +1570,9 @@
     "esq_mandatos": 6200,
     "esq_por_mil": 12.580645161290322,
     "dir_casos": 384,
-    "dir_mandatos": 25621,
-    "dir_por_mil": 14.987705397915771,
-    "p_fisher": 0.1733294377096517
+    "dir_mandatos": 25698,
+    "dir_por_mil": 14.94279710483306,
+    "p_fisher": 0.17321249538194874
    },
    {
     "nivel": "deputado",
@@ -1624,14 +1606,14 @@
    }
   ],
   "agregado": {
-   "razao_taxas": 1.2829960214495761,
+   "razao_taxas": 1.279587330066938,
    "ic95": [
-    1.0136180612041186,
-    1.6239635559571584
+    1.0109250589712597,
+    1.6196489747064269
    ],
-   "p_fisher": 0.03820228721911271,
-   "or_mantel_haenszel": 1.2612043693658634,
-   "p_cmh": 0.061522946438999276
+   "p_fisher": 0.038204291241826824,
+   "or_mantel_haenszel": 1.2577258375327511,
+   "p_cmh": 0.0647893547334707
   }
  },
  "sens_tse": {
@@ -1939,8 +1921,8 @@
    },
    {
     "partido": "PRD",
-    "categoria": "Sem classificação",
-    "nota": null,
+    "categoria": "Direita",
+    "nota": 7.325,
     "casos": 0,
     "mandatos": 77,
     "por_mil": 0.0,
@@ -2080,20 +2062,14 @@
    {
     "categoria": "Direita",
     "casos": 33,
-    "mandatos": 22720,
-    "por_mil": 1.4524647887323943
+    "mandatos": 22797,
+    "por_mil": 1.447558889327543
    },
    {
     "categoria": "Extrema-direita",
     "casos": 7,
     "mandatos": 3519,
     "por_mil": 1.9892014776925262
-   },
-   {
-    "categoria": "Sem classificação",
-    "casos": 0,
-    "mandatos": 77,
-    "por_mil": 0.0
    }
   ],
   "blocos": {
@@ -2109,8 +2085,8 @@
    },
    "Direita ampla": {
     "casos": 42,
-    "mandatos": 28905,
-    "por_mil": 1.4530358069538143
+    "mandatos": 28982,
+    "por_mil": 1.4491753502173763
    }
   },
   "niveis": [
@@ -2120,9 +2096,9 @@
     "esq_mandatos": 6200,
     "esq_por_mil": 0.16129032258064516,
     "dir_casos": 11,
-    "dir_mandatos": 25621,
-    "dir_por_mil": 0.4293353108777956,
-    "p_fisher": 0.48160008218693917
+    "dir_mandatos": 25698,
+    "dir_por_mil": 0.4280488753988637,
+    "p_fisher": 0.48177262759542716
    },
    {
     "nivel": "deputado",
@@ -2156,14 +2132,14 @@
    }
   ],
   "agregado": {
-   "razao_taxas": 1.7961944300294066,
+   "razao_taxas": 1.7914222620937135,
    "ic95": [
-    0.7635750144094031,
-    4.2252750150083145
+    0.7615463319130427,
+    4.214049213608976
    ],
-   "p_fisher": 0.2106976034752183,
-   "or_mantel_haenszel": 2.487676703032856,
-   "p_cmh": 0.049513944240025774
+   "p_fisher": 0.21076654400165232,
+   "or_mantel_haenszel": 2.4862002963851566,
+   "p_cmh": 0.04968876470479755
   }
  }
 }

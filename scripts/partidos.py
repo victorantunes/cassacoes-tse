@@ -51,12 +51,24 @@ def canon(sigla, ano=None):
     return SUCESSOR.get(s, s.title() if s else "")
 
 
+# O PRD (fusão de PTB e Patriota, 2023) não consta nos artigos: recebe a média simples das notas dos
+# partidos que o formaram, critério que Bolognesi et al. (2025) aplicam às fusões.
+PRD_2023 = (BOLOGNESI_2023["PTB"] + BOLOGNESI_2023["Patriota"]) / 2
+PRD_2025 = (BOLOGNESI_2025["PTB"] + BOLOGNESI_2025["Patriota"]) / 2
+
+
 def escala_2023(p):
-    return UNIAO_2025 if p == "UNIÃO" else BOLOGNESI_2023.get(p)
+    if p == "UNIÃO":
+        return UNIAO_2025
+    if p == "PRD":
+        return PRD_2023
+    return BOLOGNESI_2023.get(p)
 
 
 def escala_2025(p):
     herdeiro = {"DEM": "UNIÃO", "PSL": "UNIÃO", "PHS": "Podemos", "PRP": "Patriota", "PPL": "PCdoB"}
+    if p == "PRD":
+        return PRD_2025
     return BOLOGNESI_2025.get(herdeiro.get(p, p))
 
 
